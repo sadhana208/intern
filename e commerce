@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftBasket - Groceries Delivered Fast</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+
+        .hero {
+            background-color: #4CAF50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .featured-products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 2rem;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 1rem;
+            padding: 1rem;
+            width: 200px;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SwiftBasket</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">My Account</a>
+        <a href="#">Cart</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Groceries Delivered to Your Doorstep in 30 Minutes!</h2>
+        <p>Fresh, Fast, and Reliable.</p>
+        <button>Shop Now</button>
+    </div>
+
+    <div class="featured-products">
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 1">
+            <h3>Fresh Apples</h3>
+            <p>$2.99/lb</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 2">
+            <h3>Whole Milk</h3>
+            <p>$3.49/gallon</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product 3">
+            <h3>Whole Wheat Bread</h3>
+            <p>$2.50/loaf</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SwiftBasket. All rights reserved.</p>
+    </footer>
+</body>
+</html>
